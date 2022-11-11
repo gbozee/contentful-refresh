@@ -45,6 +45,7 @@ export const pageQuery = graphql`
         description {
           raw
         }
+        category
       }
     }
     allContentfulPerson(

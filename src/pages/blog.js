@@ -39,6 +39,7 @@ export const pageQuery = graphql`
             height: 212
           )
         }
+        category
         description {
           raw
         }
